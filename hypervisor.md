@@ -17,6 +17,7 @@
 1. 需要硬件支持
 
 2. 虚拟机监视器作为主操作系统
+
 3. 运行效率高
 
 举例
@@ -26,7 +27,18 @@
 3. [Virtual PC](https://zh.wikipedia.org/wiki/Virtual_PC) 2005
 4. [KVM](https://zh.wikipedia.org/wiki/Kernel-based_Virtual_Machine)
 
+Hosted Hypervisor（宿主型）：这些虚拟机管理程序运行在传统的操作系统上，就像其他计算机程序那样运行。
 
+* 特点
+
+1. 虚拟机监视器作为应用程序运行在主操作系统环境内
+2. 运行效率一般较类型I低
+
+* 举例
+
+1. VMware5.5以前版本
+2. Xen3.0以前版本
+3. Virtual PC 2004
 
 
 
