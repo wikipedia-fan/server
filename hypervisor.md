@@ -10,7 +10,7 @@
 
 **分类：**本地或裸机Hypervisor（裸金属架构）和Hosted Hypervisor（宿主型）
 
-裸机Hypervisor（裸金属架构）：在虚拟化中Hypervisor直接管理调用硬件资源，不需要底层操作系统
+**裸机Hypervisor（裸金属架构）：**在虚拟化中Hypervisor直接管理调用硬件资源，不需要底层操作系统
 
 特点
 
@@ -27,16 +27,18 @@
 3. [Virtual PC](https://zh.wikipedia.org/wiki/Virtual_PC) 2005
 4. [KVM](https://zh.wikipedia.org/wiki/Kernel-based_Virtual_Machine)
 
-Hosted Hypervisor（宿主型）：这些虚拟机管理程序运行在传统的操作系统上，就像其他计算机程序那样运行。
+**Hosted Hypervisor（宿主型）**：这些虚拟机管理程序运行在传统的操作系统上，就像其他计算机程序那样运行。
 
-* 特点
+特点
 
 1. 虚拟机监视器作为应用程序运行在主操作系统环境内
+
 2. 运行效率一般较类型I低
 
-* 举例
+举例
 
 1. VMware5.5以前版本
+
 2. Xen3.0以前版本
 3. Virtual PC 2004
 
