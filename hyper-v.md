@@ -52,3 +52,13 @@ Hyper-v server 部署流程：
 
 加入域完成后，不修改计算机名称重新启动
 
+开启Hyper-v远程管理服务，以使用Hyper-v管理器进行挂你，输入“4
+
+选择“Enable Remote Management”输入“1”，回车
+
+然后为Hyper-v设备IP地址和DNS服务器地址
+
+设置完毕后，选“11”注销账号后，就可以使用Hyper-v管理器进行管理了
+
+
+
