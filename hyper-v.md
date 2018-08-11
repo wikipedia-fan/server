@@ -22,3 +22,13 @@ Hyper-v server 部署流程：
 
 
 
+2、使用Hyper-V Server 2012 RC光盘引导，出现如下画面
+
+![](/assets/hyper-v安装起始界面.png)
+
+3、接下来选择“安装语言”、“时间和货币格式”、“键盘和输入法”（注：RC现只有英文版），然后点击“next”
+
+![](/assets/语言时间.png)
+
+然后点击“Install now”
+
