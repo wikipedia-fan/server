@@ -60,5 +60,19 @@ Hyper-v server 部署流程：
 
 设置完毕后，选“11”注销账号后，就可以使用Hyper-v管理器进行管理了
 
+Windows8安装hyper-v管理器历程：
+
+打开控制面板下的程序--&gt;打开关闭window功能，勾选Hyper管理工具：
+
+![](/assets/Hyper管理工具.png)
+
+安装完毕后，Windows会有“hyper-v管理工机具”和“Hyper-v虚拟机连接”
+
+接下来进行Hyper-v连接右击左侧栏的Hyper-v管理器，选连接服务器：
+
+![](/assets/连接Hyper-v服务器.png).
+
+连接后进行Hyper-v管理器的相关配置
+
 
 
