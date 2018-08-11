@@ -1,11 +1,24 @@
-   
+Hyper-v：
 
+定义：
 
- Hyper-v：
+分类：Windows server上一个组件；独立的虚拟化服务器
+
+区别：Hyper-v作为独立的虚拟化服务器直接运行在硬件之上，没有GUI图形化不能直接管理安装和管理虚拟机，只能通过win8专业版或企业版和win server 2012 的Hyper-v管理工具进行管理（默认没有开启，专门用来管理Hyper-v 2012）
 
 Hyper-v角色添加：win server2012上手工添加hyper-v角色以及hyper-v所需的其它组件：windows管理程序、hyper-v虚拟街管理服务、虚拟化WMI提供程序、虚拟机总线（VMBUS）虚拟化服务提供商（VSP）的VID；Hyper-v server本身就自带Hyper-v角色。
 
+硬件要求：64位支持虚拟化（Inter VT和AMD-v）的CPU支持硬件强制实施的数据执行保护（DEP）技术，即启用InterXD位和AMD的XD位
 
+存储规划
+
+内存规划：
+
+Hyper-v server 部署流程：
+
+1、启用服务器CPU虚拟化技术（进入BIOS）
+
+![](/assets/启用CPU虚拟化.png)
 
 
 
