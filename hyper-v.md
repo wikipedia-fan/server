@@ -20,8 +20,6 @@ Hyper-v server 部署流程：
 
 ![](/assets/启用CPU虚拟化.png)
 
-
-
 2、使用Hyper-V Server 2012 RC光盘引导，出现如下画面
 
 ![](/assets/hyper-v安装起始界面.png)
@@ -31,4 +29,26 @@ Hyper-v server 部署流程：
 ![](/assets/语言时间.png)
 
 然后点击“Install now”
+
+![](/assets/Hyper-v安装界面.png)
+
+选择“i accept this license terms”
+
+![](/assets/Hyper-v同意协议.png)
+
+安装类型选择：高级自定义安装
+
+![](/assets/Hyper-v高级自定义安装.png)
+
+选择驱动器类型自行分区
+
+![](/assets/驱动器类型并分区.png)
+
+安装完成重新启动后更改计算机名称后重新启动，进入系统后服务器加入域：
+
+![](/assets/Hyper-v服务器加入域.png)
+
+![](/assets/加域.png)
+
+加入域完成后，不修改计算机名称重新启动
 
