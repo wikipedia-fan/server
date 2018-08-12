@@ -10,7 +10,11 @@ Hyper-v角色添加：win server2012上手工添加hyper-v角色以及hyper-v所
 
 硬件要求：64位支持虚拟化（Inter VT和AMD-v）的CPU支持硬件强制实施的数据执行保护（DEP）技术，即启用InterXD位和AMD的XD位
 
-存储规划:单台Hyper-v主机连接存储的方式-使用串行进阶技术连接（Serial Advanced Technology Attachment-SATA）、外部串行进阶技术连接（external Serial Advanced Technology Attachment-eSATA）/并行高级技术连接（Parallel Advanced Technology Attachment-PATA）
+存储规划:单台Hyper-v主机连接存储的方式-使用串行进阶技术连接（Serial Advanced Technology Attachment-SATA）、外部串行进阶技术连接（external Serial Advanced Technology Attachment-eSATA）/并行高级技术连接（Parallel Advanced Technology Attachment-PATA）、SCSI；
+
+将多台单独的主机连接在一起，就可以通过win 2012将虚拟机从一台Hyper-v主机转移到另一台主机上，无需共享存储，虚拟机不会中断运行。这就是win2012的最新功能-在非共享存储上迁移虚拟机。
+
+Hyper-v主机以网络连接方式连接存储可以通过存储网络（Storage area network-SAN）也可以通过Internet SCSI /光纤通道（Fiber channel ）以及SAS进行连接共享存储。
 
 内存规划：
 
