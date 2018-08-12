@@ -10,7 +10,7 @@ Hyper-v角色添加：win server2012上手工添加hyper-v角色以及hyper-v所
 
 硬件要求：64位支持虚拟化（Inter VT和AMD-v）的CPU支持硬件强制实施的数据执行保护（DEP）技术，即启用InterXD位和AMD的XD位
 
-存储规划
+存储规划:单台Hyper-v主机连接存储的方式-使用串行进阶技术连接（Serial Advanced Technology Attachment-SATA）、外部串行进阶技术连接（external Serial Advanced Technology Attachment-eSATA）/并行高级技术连接（Parallel Advanced Technology Attachment-PATA）
 
 内存规划：
 
@@ -73,6 +73,4 @@ Windows8安装hyper-v管理器历程：
 ![](/assets/连接Hyper-v服务器.png).
 
 连接后进行Hyper-v管理器的相关配置
-
-
 
