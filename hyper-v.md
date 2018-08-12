@@ -16,6 +16,8 @@ Hyper-v角色添加：win server2012上手工添加hyper-v角色以及hyper-v所
 
 Hyper-v主机以网络连接方式连接存储可以通过存储网络（Storage area network-SAN）也可以通过Internet SCSI /光纤通道（Fiber channel ）以及SAS进行连接共享存储。
 
+win2012如果要采用高可用性和群集功能就必须使用共享存储。
+
 内存规划：
 
 Hyper-v server 部署流程：
