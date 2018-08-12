@@ -16,9 +16,11 @@ Hyper-v角色添加：win server2012上手工添加hyper-v角色以及hyper-v所
 
 Hyper-v主机以网络连接方式连接存储可以通过存储网络（Storage area network-SAN）也可以通过Internet SCSI /光纤通道（Fiber channel ）以及SAS进行连接共享存储。
 
-win2012如果要采用高可用性和群集功能就必须使用共享存储。
+win2012如果要采用高可用性和群集功能就必须使用共享存储。，最常见的是基于iSCSI的IP SAN和FC SAN的共享存储，当然win2012也支持NAS共享存储
 
-内存规划：
+内存规划：win2012支持的最大内存4TB，每个VM最多分1TB内存。动态内存技术：可以动态负载虚拟机工作时候所占用的内存。
+
+
 
 Hyper-v server 部署流程：
 
