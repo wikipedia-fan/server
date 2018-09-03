@@ -16,8 +16,6 @@ Ascher Opler coined the term "firmware" in a 1967[Datamation](https://en.wikiped
 
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/AMI_486DX_EISA_BIOS_20051109.jpg/220px-AMI_486DX_EISA_BIOS_20051109.jpg)](https://en.wikipedia.org/wiki/File:AMI_486DX_EISA_BIOS_20051109.jpg)
 
-
-
 ROM [BIOS](https://en.wikipedia.org/wiki/BIOS) firmware on a [Baby AT](https://en.wikipedia.org/wiki/Baby_AT) [motherboard](https://en.wikipedia.org/wiki/Motherboard)
 
 In some respects, the various firmware components are as important as the[operating system](https://en.wikipedia.org/wiki/Operating_system)in a working computer. However, unlike most modern operating systems, firmware rarely has a well-evolved automatic mechanism of updating itself to fix any functionality issues detected after shipping the unit.
@@ -53,14 +51,54 @@ Examples of firmware include:
   * [RTAS](https://en.wikipedia.org/wiki/Run-Time_Abstraction_Services)\(Run-Time Abstraction Services\), used in computers from [IBM](https://en.wikipedia.org/wiki/IBM)
   * The[Common Firmware Environment](https://en.wikipedia.org/wiki/Common_Firmware_Environment)\(CFE\)
 * In [routers](https://en.wikipedia.org/wiki/Residential_gateway) and [firewalls](https://en.wikipedia.org/wiki/Firewall_%28computing%29):
-  * [LibreCMC](https://en.wikipedia.org/wiki/LibreCMC) – a 100% [free software](https://en.wikipedia.org/wiki/Free_software) router distribution based on the [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) kernel
-  * [IPFire](https://en.wikipedia.org/w/index.php?title=IPFire&action=edit&redlink=1) – an [open-source](https://en.wikipedia.org/wiki/Open-source_software) firewall/router distribution based on the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)
+  * [LibreCMC](https://en.wikipedia.org/wiki/LibreCMC) – a 100% [free software](https://en.wikipedia.org/wiki/Free_software) router distribution based on the [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) kernel
+  * [IPFire](https://en.wikipedia.org/w/index.php?title=IPFire&action=edit&redlink=1) – an [open-source](https://en.wikipedia.org/wiki/Open-source_software) firewall/router distribution based on the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)
   * [fli4l](https://en.wikipedia.org/wiki/Fli4l)– an open-source firewall/router distribution based on the Linux kernel
-  * [OpenWrt](https://en.wikipedia.org/wiki/OpenWrt) – an open-source firewall/router distribution based on the Linux kernel
-  * [m0n0wall](https://en.wikipedia.org/wiki/M0n0wall) – an embedded firewall distribution of [FreeBSD](https://en.wikipedia.org/wiki/FreeBSD)
+  * [OpenWrt](https://en.wikipedia.org/wiki/OpenWrt) – an open-source firewall/router distribution based on the Linux kernel
+  * [m0n0wall](https://en.wikipedia.org/wiki/M0n0wall) – an embedded firewall distribution of [FreeBSD](https://en.wikipedia.org/wiki/FreeBSD)
 * In [NAS](https://en.wikipedia.org/wiki/Network-attached_storage)systems:
-  * [NAS4Free](https://en.wikipedia.org/wiki/NAS4Free) – an open-source NAS operating system based on FreeBSD 9.1
+  * [NAS4Free](https://en.wikipedia.org/wiki/NAS4Free) – an open-source NAS operating system based on FreeBSD 9.1
   * [Openfiler](https://en.wikipedia.org/wiki/Openfiler)– an open-source NAS operating system based on the Linux kernel
+
+  ## Flashing
+
+  **Flashing**[\[6\]](https://en.wikipedia.org/wiki/Firmware#cite_note-techfaq-7)involves the overwriting of existing firmware or data, contained in[EEPROM](https://en.wikipedia.org/wiki/EEPROM)or[flash memory](https://en.wikipedia.org/wiki/Flash_memory)modules present in an electronic device, with new data.[\[6\]](https://en.wikipedia.org/wiki/Firmware#cite_note-techfaq-7)This can be done to upgrade a device[\[7\]](https://en.wikipedia.org/wiki/Firmware#cite_note-8)or to change the[provider](https://en.wikipedia.org/wiki/Service_provider)of a service associated with the function of the device, such as changing from one mobile phone service provider to another or installing a new operating system. If firmware is upgradable, it is often done via a program from the provider, and will often allow the old firmware to be saved before upgrading so it can be reverted to if the process fails, or if the newer version performs worse.
+
+## Firmware hacking\[[edit](https://en.wikipedia.org/w/index.php?title=Firmware&action=edit&section=8)\]
+
+Main article:
+
+[Custom firmware](https://en.wikipedia.org/wiki/Custom_firmware)
+
+Sometimes, third parties create an unofficial new or modified \("aftermarket"\) version of firmware to provide new features or to unlock hidden functionality; this is referred to as[custom firmware](https://en.wikipedia.org/wiki/Custom_firmware). An example is[Rockbox](https://en.wikipedia.org/wiki/Rockbox)as a firmware replacement for[portable media players](https://en.wikipedia.org/wiki/Portable_media_players). There are many[homebrew](https://en.wikipedia.org/wiki/Homebrew_%28video_games%29)projects for video game consoles, which often unlock general-purpose computing functionality in previously limited devices \(e.g., running[Doom](https://en.wikipedia.org/wiki/Doom_%281993_video_game%29)on[iPods](https://en.wikipedia.org/wiki/IPod)\).
+
+Firmware hacks usually take advantage of the firmware update facility on many devices to install or run themselves. Some, however, must resort to[exploits](https://en.wikipedia.org/wiki/Exploit_%28computer_security%29)to run, because the manufacturer has attempted to lock the hardware to stop it from running[unlicensed code](https://en.wikipedia.org/wiki/Unsigned_code).
+
+Most firmware hacks are[free software](https://en.wikipedia.org/wiki/Free_software).
+
+### HDD firmware hacks
+
+The Moscow-based[Kaspersky Lab](https://en.wikipedia.org/wiki/Kaspersky_Lab)discovered that a group of developers it refers to as the "[Equation Group](https://en.wikipedia.org/wiki/Equation_Group)" has developed[hard disk drive](https://en.wikipedia.org/wiki/Hard_disk_drive)firmware modifications for various drive models, containing a[trojan horse](https://en.wikipedia.org/wiki/Trojan_horse_%28computing%29)that allows data to be stored on the drive in locations that will not be erased even if the drive is formatted or wiped.[\[8\]](https://en.wikipedia.org/wiki/Firmware#cite_note-9)Although the Kaspersky Lab report did not explicitly claim that this group is part of the United States[National Security Agency](https://en.wikipedia.org/wiki/National_Security_Agency)\(NSA\), evidence obtained from the code of various Equation Group software suggests that they are part of the NSA.[\[9\]](https://en.wikipedia.org/wiki/Firmware#cite_note-10)[\[10\]](https://en.wikipedia.org/wiki/Firmware#cite_note-11)
+
+Researchers from the Kaspersky Lab categorized the undertakings by Equation Group as the most advanced hacking operation ever uncovered, also documenting around 500 infections caused by the Equation Group in at least 42 countries.
+
+## Security risks
+
+[Mark Shuttleworth](https://en.wikipedia.org/wiki/Mark_Shuttleworth), the founder of the company[Canonical](https://en.wikipedia.org/wiki/Canonical_%28company%29), which maintains the[Ubuntu Linux](https://en.wikipedia.org/wiki/Ubuntu_Linux)distribution, has described[proprietary](https://en.wikipedia.org/wiki/Proprietary_software)firmware as a security risk, saying that "firmware on your device is the[NSA](https://en.wikipedia.org/wiki/NSA)'s best friend" and calling firmware "a trojan horse of monumental proportions". He has asserted that low-quality,[closed source](https://en.wikipedia.org/wiki/Proprietary_software)firmware is a major threat to system security:[\[11\]](https://en.wikipedia.org/wiki/Firmware#cite_note-linux-mag-162-12)"Your biggest mistake is to assume that the NSA is the only institution abusing this position of trust – in fact, it's reasonable to assume that all firmware is a cesspool of insecurity, courtesy of incompetence of the highest degree from manufacturers, and competence of the highest degree from a very wide range of such agencies". As a potential solution to this problem, he has called for declarative firmware, which would describe "hardware linkage and dependencies" and "should not include[executable code](https://en.wikipedia.org/wiki/Executable_code)".[\[12\]](https://en.wikipedia.org/wiki/Firmware#cite_note-13)Firmware should be[open-source](https://en.wikipedia.org/wiki/Open-source_software)so that the code can be checked and verified.
+
+Custom firmware hacks have also focused on injecting[malware](https://en.wikipedia.org/wiki/Malware)into devices such as smartphones or[USB devices](https://en.wikipedia.org/wiki/USB_device). One such smartphone injection was demonstrated on the[Symbian OS](https://en.wikipedia.org/wiki/Symbian_OS#Malware)at[MalCon](https://en.wikipedia.org/wiki/Malcon),[\[13\]](https://en.wikipedia.org/wiki/Firmware#cite_note-14)[\[14\]](https://en.wikipedia.org/wiki/Firmware#cite_note-15)a[hacker convention](https://en.wikipedia.org/wiki/Hacker_convention). A USB device firmware hack calledBadUSBwas presented at[Black Hat USA 2014](https://en.wikipedia.org/wiki/Black_Hat_Briefings)conference,[\[15\]](https://en.wikipedia.org/wiki/Firmware#cite_note-16)demonstrating how a[USB flash drive](https://en.wikipedia.org/wiki/USB_flash_drive)microcontroller can be reprogrammed to spoof various other device types to take control of a computer, exfiltrate data, or spy on the user.[\[16\]](https://en.wikipedia.org/wiki/Firmware#cite_note-17)[\[17\]](https://en.wikipedia.org/wiki/Firmware#cite_note-18)Other security researchers have worked further on how to exploit the principles behind BadUSB,[\[18\]](https://en.wikipedia.org/wiki/Firmware#cite_note-19)releasing at the same time the source code of hacking tools that can be used to modify the behavior of different USB devices.[\[19\]](https://en.wikipedia.org/wiki/Firmware#cite_note-20)
+
+
+
+## Security risks\[[edit](https://en.wikipedia.org/w/index.php?title=Firmware&action=edit&section=10)\]
+
+[Mark Shuttleworth](https://en.wikipedia.org/wiki/Mark_Shuttleworth), the founder of the company[Canonical](https://en.wikipedia.org/wiki/Canonical_%28company%29), which maintains the[Ubuntu Linux](https://en.wikipedia.org/wiki/Ubuntu_Linux)distribution, has described[proprietary](https://en.wikipedia.org/wiki/Proprietary_software)firmware as a security risk, saying that "firmware on your device is the[NSA](https://en.wikipedia.org/wiki/NSA)'s best friend" and calling firmware "a trojan horse of monumental proportions". He has asserted that low-quality,[closed source](https://en.wikipedia.org/wiki/Proprietary_software)firmware is a major threat to system security:[\[11\]](https://en.wikipedia.org/wiki/Firmware#cite_note-linux-mag-162-12)"Your biggest mistake is to assume that the NSA is the only institution abusing this position of trust – in fact, it's reasonable to assume that all firmware is a cesspool of insecurity, courtesy of incompetence of the highest degree from manufacturers, and competence of the highest degree from a very wide range of such agencies". As a potential solution to this problem, he has called for declarative firmware, which would describe "hardware linkage and dependencies" and "should not include[executable code](https://en.wikipedia.org/wiki/Executable_code)".[\[12\]](https://en.wikipedia.org/wiki/Firmware#cite_note-13)Firmware should be[open-source](https://en.wikipedia.org/wiki/Open-source_software)so that the code can be checked and verified.
+
+Custom firmware hacks have also focused on injecting[malware](https://en.wikipedia.org/wiki/Malware)into devices such as smartphones or[USB devices](https://en.wikipedia.org/wiki/USB_device). One such smartphone injection was demonstrated on the[Symbian OS](https://en.wikipedia.org/wiki/Symbian_OS#Malware)at[MalCon](https://en.wikipedia.org/wiki/Malcon),[\[13\]](https://en.wikipedia.org/wiki/Firmware#cite_note-14)[\[14\]](https://en.wikipedia.org/wiki/Firmware#cite_note-15)a[hacker convention](https://en.wikipedia.org/wiki/Hacker_convention). A USB device firmware hack calledBadUSBwas presented at[Black Hat USA 2014](https://en.wikipedia.org/wiki/Black_Hat_Briefings)conference,[\[15\]](https://en.wikipedia.org/wiki/Firmware#cite_note-16)demonstrating how a[USB flash drive](https://en.wikipedia.org/wiki/USB_flash_drive)microcontroller can be reprogrammed to spoof various other device types to take control of a computer, exfiltrate data, or spy on the user.[\[16\]](https://en.wikipedia.org/wiki/Firmware#cite_note-17)[\[17\]](https://en.wikipedia.org/wiki/Firmware#cite_note-18)Other security researchers have worked further on how to exploit the principles behind BadUSB,[\[18\]](https://en.wikipedia.org/wiki/Firmware#cite_note-19)releasing at the same time the source code of hacking tools that can be used to modify the behavior of different USB devices.[\[19\]](https://en.wikipedia.org/wiki/Firmware#cite_note-20)
+
+固件（firmware）是代码，最底层的软件程序，运行在硬件之上，由驱动程序去加载，方便驱动程序调用硬件资源，随硬件厂商发布出来，软件厂商和硬件厂商之间会有个接口界面，界面之上的驱动程序，界面之下的是固件。
+
+
 
 
 
